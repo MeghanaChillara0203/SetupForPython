@@ -1,9 +1,9 @@
 # SetupForPython
 
-##Setting up python and git on windows:
+## Setting up python and git on windows:
 
 1. Install Linux on windows
-    Right click on ##Windows Powershell and click "Run as Administrator"
+    Right click on Windows Powershell and click "Run as Administrator"
     Then run the below commands
     ```bash
     wsl --install
@@ -41,30 +41,30 @@
     
 4. Logging into git 
     Before getting started with the git commands, lets do some git configuration settings
-    ###Personal Access token
+    ### Personal Access token
     1. Go to "Setting" in git hub
     2. Go to "Developer Settings"
     3. Click on "Personal access token" 
     4. Select "Tokens(classic)"
     5. Click on "Generate new token"
     
-    ###Name
+    ### Name
     To set up your Git config file, open a WSL command line and set your name with this command 
     (replacing "Your Name" with your preferred username):
     ```bash
     git config --global user.name "Your Name"
     ```
-    ###Email
+    ### Email
     Set your email with this command (replacing "youremail@domain.com" with the email you prefer):
     ```bash
     git config --global user.email "youremail@domain.com"
     ```
-    ###Username
+    ### Username
     Add your GitHub username to link it to git (remember, it is case sensitive!):
     ```bash
     git config --global user.username "GitHub username"
     ```
-    ###Token
+    ### Token
     Add your token
     ```bash
     git config --global github.token <your token>
