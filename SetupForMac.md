@@ -29,6 +29,7 @@ Before getting started with the git commands, lets do some git configuration set
 3. Click on "Personal access token" 
 4. Select "Tokens(classic)"
 5. Click on "Generate new token"
+6. Copy this token and store it(In a notepad or anywhere you would remember)
     
 ### Name
 To set up your Git config file, open a WSL command line and set your name with this command 
@@ -47,7 +48,7 @@ Add your GitHub username to link it to git (remember, it is case sensitive!):
 git config --global user.username "GitHub username"
 ```
 ### Token
-Add your token
+Add your gerenerated personal token here
 ```bash
 git config --global github.token <your token>
 ```
