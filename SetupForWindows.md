@@ -19,9 +19,9 @@ wsl --set-default-version <Version#>
 Replace <Version#> with either 1 or 2
     
 Refer: 
-    "https://learn.microsoft.com/en-us/windows/wsl/install"
-    "https://learn.microsoft.com/en-us/windows/wsl/"
-    https://learn.microsoft.com/en-us/windows/wsl/basic-commands?source=recommendations
+"https://learn.microsoft.com/en-us/windows/wsl/install"
+"https://learn.microsoft.com/en-us/windows/wsl/"
+"https://learn.microsoft.com/en-us/windows/wsl/basic-commands?source=recommendations"
 
 ### 2. Switch to WSL from Powershell/Command prompt when you open command prompt on windows
 
@@ -70,6 +70,7 @@ Add your token
 ```bash
 git config --global github.token <your token>
 ```
-Refer : https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+Refer : 
+"https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token"
     
 
