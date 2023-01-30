@@ -1,34 +1,25 @@
-# SetupForPython
+## Setting up git on mac:
 
-## Setting up python and git on windows:
-
-1. Install Linux on windows
-    Right click on Windows Powershell and click "Run as Administrator"
-    Then run the below commands
+#### Installing Git on Mac
+    Git can be installed on Mac in many ways. One of the best approach is using homebrew
+    Homebrew can be installed by running the blow command in terminal
     ```bash
-    wsl --install
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
-    To check the version of wsl you installed :
+    The above command may request for password, once you enter your mac password, homebrew should be installed.
+    Now install git by entering the below command in terminal
     ```bash
-    wsl -l -v
+    brew install git
     ```
-    To set the default version to WSL 1 or WSL 2 when a new Linux distribution is installed:
+    To verify if git has been successfully installed or not, run the below command
     ```bash
-    wsl --set-default-version <Version#>
+    Git --version
     ```
-    Replace <Version#> with either 1 or 2
-    
     Refer: 
-    "https://learn.microsoft.com/en-us/windows/wsl/install"
-    "https://learn.microsoft.com/en-us/windows/wsl/"
-    https://learn.microsoft.com/en-us/windows/wsl/basic-commands?source=recommendations
+    "https://git-scm.com/book/en/v2/Getting-Started-Installing-Git"
+    "https://www.freecodecamp.org/news/setup-git-on-mac/"
 
-2. Switch to WSL from Powershell when you open command prompt on windows
-    ```bash
-    wsl
-    ```
-    
-3. Configure git on windows (Linux)
+2. Configure git on Mac 
     Git comes installed with most Linux distributions, but you can make sure you're using the latest stable version 
     by running the following command:
     ```bash
