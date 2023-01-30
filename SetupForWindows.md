@@ -2,7 +2,7 @@
 
 ## Setting up for WSL ( Windows Subsystem for Linux) and git on windows:
 
-#### 1. Install Linux on windows
+### 1. Install Linux on windows
 Right click on Windows Powershell and click "Run as Administrator"
 Then run the below commands
 ```
@@ -23,13 +23,13 @@ Refer:
     "https://learn.microsoft.com/en-us/windows/wsl/"
     https://learn.microsoft.com/en-us/windows/wsl/basic-commands?source=recommendations
 
-#### 2. Switch to WSL from Powershell/Command prompt when you open command prompt on windows
+### 2. Switch to WSL from Powershell/Command prompt when you open command prompt on windows
 
 ```bash
 wsl
 ```
     
-#### 3. Configure git on windows (Linux)
+### 3. Configure git on windows (Linux)
 Git comes installed with most Linux distributions, but you can make sure you're using the latest stable version 
 by running the following command:
 ```bash
@@ -40,7 +40,7 @@ To verify if git is successfully installed or not, type the following command
 git --version
 ```
     
-#### 4. Logging into git 
+### 4. Logging into git 
 Before getting started with the git commands, lets do some git configuration settings
 ### Personal Access token
 1. Go to "Setting" in git hub
