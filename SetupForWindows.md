@@ -1,4 +1,4 @@
-# SetupForWindows
+# Setup For Windows
 
 ## Setting up for WSL ( Windows Subsystem for Linux) and git on windows:
 
