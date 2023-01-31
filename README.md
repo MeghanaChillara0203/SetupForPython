@@ -1,13 +1,13 @@
 # Setup For Python And Github for Beginners
 
 ## For Setting up python and installing git on Windows
-[a relative link](SetupForWindows.md)
+[Setup For Windows](SetupForWindows.md)
 
 ## For Setting up python and installing git on Mac
-[a relative link](SetupForMac.md)
+[Setup For Mac](SetupForMac.md)
 
 ## Files to be included in your github repository
-[a relative link](FilesInGitRepo.md)
+[Files In Git Repo](FilesInGitRepo.md)
 
 ## For instructions on getting started with github repository
-[a relative link](GitRepoSetup.md)
+[Git Repo Setup](GitRepoSetup.md)
