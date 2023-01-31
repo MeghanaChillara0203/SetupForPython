@@ -17,7 +17,7 @@ The .gitignore file is a text file that tells Git which files or folders to igno
 A local .gitignore file is usually placed in the root directory of a project. You can also create a global .gitignore file and any entries in that file will be ignored in all of your Git repositories.
 It is generally used to tell git to ignore system files and large data files such as ( .DS_Store, .csv)
 Enter each extension in a seperate line.
-
+**I have included a sample .gitignore file in this repository**
 The ".gitignore" files are not visible in the folder, it see the files press "cmd + ." (cmd and dot seperator at the same time)
 
 #### To create .gitignore file on github
@@ -161,7 +161,7 @@ command1:
 Refer: "https://github.com/teamniteo/Makefile"
 
 ### 8. LICENSE
-
+I have included a sample LICENSE file in this repository
 #### To create a LICENSE file
 1. In your github repository, click on "Add file"
 2. Select "Create new file"
